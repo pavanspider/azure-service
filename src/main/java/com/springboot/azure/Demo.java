@@ -10,6 +10,6 @@ public class Demo {
 	
 	@GetMapping("/api")
 	public String printThis() {
-		return "Azure";
+		return "Azure application deployed successfully";
 	}
 }
